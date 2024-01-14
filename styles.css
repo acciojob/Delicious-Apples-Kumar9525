@@ -54,7 +54,9 @@ body{
 }
 
 .product__info{
-	width:300px;
+	width:800px;
 	height:500px;
 	background-color:white;
+	position:relative;
+	left:-300px;
 }
