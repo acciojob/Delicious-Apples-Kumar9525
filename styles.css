@@ -1,1 +1,36 @@
 /* your code here */
+body{
+	background-color:rgb(16, 227, 128);
+	margin:0px;
+	padding:0px;
+}
+.product__photo{
+	margin-left:300px;
+	margin-top:100px;
+	height:500px;
+	width:350px;
+	background-image: radial-gradient(circle, yellow, #9de310ff);
+	border-radius:15px 15px 0px 0px;;
+}
+.controls{
+	display:flex;
+	justify-content:space-between;
+	padding:20px;
+	color:white;
+}
+.photo-main > img{
+	position:relative;
+	left:-70px;
+}
+.photo-album{
+	width:350px;
+	height:100px;
+	background-color:white;
+}
+.photo-album > ul > li > img{
+	
+}
+.photo-album > ul > li{
+	list-style:none;
+	border:1px solid black;
+}
