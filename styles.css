@@ -8,9 +8,9 @@ body{
 	margin-left:300px;
 	margin-top:100px;
 	height:500px;
-	width:350px;
+	width:380px;
 	background-image: radial-gradient(circle, yellow, #9de310ff);
-	border-radius:15px 15px 0px 0px;;
+	border-radius:15px 15px 0px 0px;
 }
 .controls{
 	display:flex;
@@ -23,14 +23,26 @@ body{
 	left:-70px;
 }
 .photo-album{
-	width:350px;
-	height:100px;
+	width:380px;
+	height:120px;
 	background-color:white;
+	border-radius:0 0 15px 15px
 }
 .photo-album > ul > li > img{
-	
+	padding:1px;
 }
 .photo-album > ul > li{
 	list-style:none;
-	border:1px solid black;
+	border:2px solid #d1d1d1ff;
+	display:inline-block;
+	padding:5px;
+	margin-top:15px;
+	border-radius:10px;
+	margin-left:5px;	
+}
+
+.product__info{
+	width:300px;
+	height:500px;
+	background-color:white;
 }
