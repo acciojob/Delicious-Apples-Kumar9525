@@ -5,9 +5,9 @@ body{
 	padding:0px;
 }
 .product{
-	width:700px;
-	height:650px;
-	background-color:red;
+	width:730px;
+	height:680px;
+	background-color:white;
 	display:flex;	
 	position:relative;
 	left:250px;
@@ -38,7 +38,8 @@ body{
 	width:380px;
 	height:120px;
 	background-color:white;
-	border-radius:0 0 15px 15px
+	border-radius:0 0 15px 15px;
+	box-shadow:0px 0px 10px 0px gray;
 }
 .photo-album > ul > li > img{
 	padding:1px;
@@ -54,9 +55,69 @@ body{
 }
 
 .product__info{
-	width:800px;
+	width:350px;
 	height:500px;
 	background-color:white;
-	position:relative;
-	left:-300px;
+	position:absolute;
+	left:330px;
+	top:50px;
+	padding:20px
+}
+.variant > ul > li{
+	list-style:none;	
+	display:inline-block;		
+}
+.title >h1{
+	font-family:arial;
+	font-weight:800;
+	color:#4d4d4dff;
+	font-size:30px;
+}
+.title > span{
+	color:#d1d1d1ff;
+	font-size:20px;
+	font-family:inter;
+}
+.price{
+	color:red;
+	font-size:20px;
+	padding:10px;
+	font-family:inter;
+}
+.price > span{
+	font-size:50px;
+	padding-left:10px;
+}
+.variant >h3{
+	font-family:arial;
+	color:#d1d1d1ff;
+}
+.variant > ul > li > img{
+	width:40px;
+}
+.g-apple{
+	border:2px solid #d1d1d1ff;
+	padding:5px;
+	border-radius:5px;
+}
+.description > h3{
+	color:#d1d1d1ff;
+	font-family:arial;
+	margin-top:30px;
+}
+.description >ul > li{
+	font-family:arial;
+	line-height:1.6;
+}
+button{
+	width:250px;
+	height:70px;
+	background-color:red;
+	color:white;
+	font-family:arial;
+	font-size:20px;
+	font-weight:600;
+	border:none;
+	border-radius:10px;
+	box-shadow:0px 0px 20px 0px gray;
 }
